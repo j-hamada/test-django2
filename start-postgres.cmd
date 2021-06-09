@@ -1,0 +1,2 @@
+@REM PostgreSQLを起動するバッチ
+docker run --rm -dit --name postgres -p 15432:5432 -v C:\Users\j-hamada\PycharmProjects\PostgreSQL\DataFiles\data01:/var/lib/postgresql/data -e POSTGRES_HOST_AUTH_METHOD=trust postgres
